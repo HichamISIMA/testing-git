@@ -196,6 +196,7 @@ object GraphX {
     (0 to 6).map(i => slashGraph2.subgraph(vpred = (vid, _) => vid >=i*10000 && vid < (i+1)*10000).triangleCount.
     vertices.map(_._2).reduce(_ + _)) .foreach(println)
     val liste = List(1, 2, 3)
+    val seq = Seq("hi", "ha")
 
 
 
